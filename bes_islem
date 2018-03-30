@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+	int a;
+	int b;
+	int sonuc1;
+	int sonuc2;
+	int sonuc3;
+	int sonuc4;
+	int sonuc5;
+	
+	printf("Birinci sayiyi giriniz");
+	scanf("%d",&a);
+	
+	printf("Ikinci sayiyi giriniz");
+	scanf("%d",&b);
+	
+	sonuc1 = a + b;
+	printf("toplam:%d\n",sonuc1);
+	
+	sonuc2 = a - b;
+	printf("cikarma:%d\n",sonuc2);
+	
+	sonuc3 = a * b;
+	printf("carpma:%d\n",sonuc3);
+	
+	sonuc4 = a / b;
+	printf("bolme:%d\n",sonuc4);
+	
+	sonuc5 = a % b;
+	printf("mod:%d\n",sonuc5);
+	
+	return 0;
+}
