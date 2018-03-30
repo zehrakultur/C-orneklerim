@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main (int argc, char *agcv[]){
+	int taban;
+	int yukseklik;
+	float alan;
+	
+	printf("ucgenin tabani=");
+	scanf("%d", &taban);
+	
+	printf("ucgenin yuksekligi=");
+	scanf("%d", &yukseklik);
+	
+	alan = (taban * yukseklik) / 2.0;
+	
+	printf("\n ucgenin alani %.2f dir \n", alan);
+	system("PAUSE");
+	return 0;
+
+}
