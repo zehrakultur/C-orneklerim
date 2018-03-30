@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+main() {
+	char ad[20];
+	char soyad[30];
+	int ay,gun,yil;
+	printf("Ad:",ad);
+	scanf("%s",ad);
+	printf("\nSoyad:");
+	scanf("%s",soyad);
+	printf("\nD tarihi(AA/GG/YYYY):");
+	scanf("%d/%d/%d",&ay,&gun,&yil);
+	printf("%s %s adli kisinin dogum tarihi %d.%d.%d dir",ad,soyad,ay,gun,yil);
+	return 0;	
+	
+}
