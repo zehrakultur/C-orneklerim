@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main ()
+{
+	for(int a=100 ; a<=500 ; a++)
+	{
+		printf("\n%d\t",a);
+		printf("\n%c\t",a);
+	
+	}
+	return 0;
+}
