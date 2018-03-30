@@ -1,17 +1,26 @@
 #include<stdio.h>
 
 int main(){
-	int s1,s2,s3,s4,s5;
+	int sayi,a,b,c,d,e,yeniSayi;
 	
-	printf("bes sayi giriniz: \n ",s1,s2,s3,s4,s5);
-	scanf("%d%d%d%d%d",&s1,&s2,&s3,&s4,&s5);
+	printf("5 haneli bir karakter giriniz.\n");
+	scanf("%d",&sayi);
+	a=sayi/10000;
+	printf("%d\n",a);
+	b=sayi%10000/1000;
+	printf("%d\n",b);
+	c=sayi%1000/100;
+	printf("%d\n",c);
+	d=sayi%100/10;
+	printf("%d\n",d);
+	e=sayi%10/1;
+	printf("%d\n",e);
 	
-	if(s1==s5 && s2==s4)
-	{
-		printf("palindrome sayi");
-	}
+	yeniSayi=e*10000+d*1000+c*100+b*10+a*1;
+	printf("%d\n",yeniSayi);
+	
+	if(sayi==yeniSayi)
+	printf("sayimiz palindrome sayidir.");
 	else
-	{
-		printf("palindrome sayi degil.\nLutfen tekrar deneyiniz.");
-	}
+	printf("sayimiz palindrome sayisi degildir.");
 }
