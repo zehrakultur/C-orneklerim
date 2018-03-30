@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+	
+	int sayi1;
+	int sayi2;
+	
+	printf("birinci sayi\n",sayi1);
+	scanf("%d",&sayi1);
+	
+	printf("ikinci sayi\n",sayi2);
+	scanf("%d",&sayi2);
+	
+	if(sayi1>sayi2)
+	printf("buyuk olan sayi: %d\n",sayi1);
+	else
+	printf("buyuk olan sayi: %d\n",sayi2);
+	
+}
