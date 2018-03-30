@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(){
+	int a;
+	
+	printf("notunuzu giriniz:");
+	scanf("%d",&a);
+	if(a<=40)
+	{
+		printf("Sinifta kaldiniz.");
+	}
+	else if(a>=41 && a<=100)
+	{
+		printf("Sinifi gectiniz.");
+	}
+	else
+	{
+		printf("Hatali giris yaptiniz.\nNotunuzu tekrar giriniz.");
+	}
+	return 0;
+}
