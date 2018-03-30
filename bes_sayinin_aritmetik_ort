@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(){
+	float toplam;
+	
+	float sayilar[5];
+	int i;
+	
+	for(i=0;i<5;i++){
+		printf("Bir Sayi Giriniz:");
+		scanf("%f",&sayilar[i]);
+		}
+		
+		
+	for(i=0;i<5;i++){
+	toplam += sayilar[i];
+	}
+	
+	printf("Girdiginiz Sayilarin Aritmetik Ortalamasi %.2f dir",toplam/5);
+	
+	}
